@@ -7,8 +7,8 @@ FROM jupyter/base-notebook
 USER jovyan
 
 ADD work /home/jovyan/work
-RUN pip install psycopg2
-RUN pip install pymongo
+RUN pip install elasticsearch==5.5.1
+RUN pip install redis
 
 USER root
 
