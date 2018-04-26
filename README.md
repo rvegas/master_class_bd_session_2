@@ -1,19 +1,23 @@
 # Master Class Bases de datos Session II [Dockerized]
 
-- Install docker:
+- Instalar docker:  
 https://store.docker.com/search?type=edition&offering=community
 
-- Install docker-compose:
+- Instalar docker-compose (solo ubuntu):  
 https://docs.docker.com/compose/install/
 
-- Install Postman:
+- Instalar Postman:  
 https://www.getpostman.com/
 
-- Install FastoRedis:
+- Instalar FastoRedis:  
 https://fastoredis.com/anonim_users_downloads/
 
-- Run:
+- Ejecutar:  
 
+```
 docker-compose build
-docker-compose up
+docker-compose up -d
+```
 
+Para abrir el notebook de jupyter, revisad los logs del notebook_1 container,
+deberia verse algo como `localhost:8888/?token=XXXX`. Abrid eso en un browser.
