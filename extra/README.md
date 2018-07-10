@@ -9,3 +9,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python run.py
 ```
+Go to http://localhost:3000
+
+User: admin
+pass: admin
