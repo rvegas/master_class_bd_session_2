@@ -5,7 +5,7 @@ services:
     ports:
       - "9200:9200"
     healthcheck:
-      test: "exit 0"
+      - test: "exit 0"
   elastic-seed:
     build: elastic-seed
     links:
