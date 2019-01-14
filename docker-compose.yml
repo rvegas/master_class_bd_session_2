@@ -5,14 +5,14 @@ services:
     ports:
       - "9200:9200"
     healthcheck:
-      - test: "exit 0"
+      test: "exit 0"
   elastic-seed:
     build: elastic-seed
     links:
       - elasticsearch
     depends_on:
-      elasticsearch:
-        condition: service_healthy
+      - elasticsearch:
+          condition: service_healthy
   kibana:
     image: kibana:5.6.4
     links:
