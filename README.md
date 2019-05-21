@@ -9,8 +9,8 @@ https://docs.docker.com/compose/install/
 - Instalar Postman:  
 https://www.getpostman.com/
 
-- Instalar FastoRedis:  
-https://fastoredis.com/anonim_users_downloads/
+- Instalar Redis Tools:  
+https://rdbtools.com/docs/install/windows/
 
 - Ejecutar:  
 
